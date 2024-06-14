@@ -1,0 +1,13 @@
+// import Genral-rules
+@use './layout/global-rules';
+
+// import Header
+@use './layout/header';
+
+//import Home page
+@use './pages/home';
+
+
+//import Footer
+@use './layout/footer';
+

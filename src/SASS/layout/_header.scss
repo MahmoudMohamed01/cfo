@@ -1,0 +1,95 @@
+@use "../variables/variables" as *;
+
+header {
+  background-color: transparent;
+  position: relative;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logos {
+      display: flex;
+      align-items: center;
+      .silver-logo {
+        display: none;
+      }
+    }
+    img {
+      padding-top: 20px;
+      width: 100px;
+    }
+    .nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      li {
+        padding: 40px 15px;
+        a {
+          color: white;
+          &.active {
+            color: $main-color;
+            border-bottom: 2px solid $main-color;
+          }
+          &:hover {
+            color: $main-color;
+            border-bottom: 2px solid $main-color;
+          }
+        }
+      }
+      .silver-logo {
+        margin-left: 40px;
+      }
+    }
+    .menu {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  header {
+    .container {
+      .logos {
+        .gold-logo {
+          border-right: 2px solid $main-color;
+          padding-right: 10px;
+        }
+        .silver-logo {
+          display: block;
+          padding-left: 10px;
+          &.silver {
+            position: relative;
+          }
+        }
+      }
+      .menu {
+        display: block;
+      }
+      .nav {
+        display: none;
+
+        &.open {
+          display: flex;
+          flex-direction: column;
+          position: absolute;
+          top: 100%;
+          left: 0;
+          width: 100%;
+          background-color: rgb(3 2 8 / 90%);
+          z-index: 1;
+          li {
+            padding: 0;
+            width: 100%;
+            a {
+              display: block;
+              padding: 15px 20px;
+            }
+          }
+          .silver-logo {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
