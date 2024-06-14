@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/cfo/static/css/main.c7d90fad.css",
+    "main.js": "/cfo/static/js/main.813a702d.js",
+    "static/media/CFO_Factory.png": "/cfo/static/media/CFO_Factory.35e2b8293e2a69591525.png",
+    "static/media/landing14.png": "/cfo/static/media/landing14.062e0fc003cd6642912f.png",
+    "static/media/silver.png": "/cfo/static/media/silver.bbc8cc87d319af31d410.png",
+    "static/media/fa-solid-900.ttf": "/cfo/static/media/fa-solid-900.79da213423ac0def2058.ttf",
+    "static/media/fa-brands-400.ttf": "/cfo/static/media/fa-brands-400.0a1b701f5563c2288281.ttf",
+    "static/media/fa-solid-900.woff2": "/cfo/static/media/fa-solid-900.4896d4b04430cc3dfb06.woff2",
+    "static/media/fa-brands-400.woff2": "/cfo/static/media/fa-brands-400.f77bcc98bb7468c8b15a.woff2",
+    "static/media/logo-dark.png": "/cfo/static/media/logo-dark.c53fba43ee3e240cfbc9.png",
+    "static/media/about6.jpg": "/cfo/static/media/about6.a92b992448d18549ebc0.jpg",
+    "static/media/fa-regular-400.ttf": "/cfo/static/media/fa-regular-400.15d98c18221c8bcb2334.ttf",
+    "static/media/MostafaAraby.jpg": "/cfo/static/media/MostafaAraby.fdd711c53802de306390.jpg",
+    "static/media/HossamAlzayat.jpg": "/cfo/static/media/HossamAlzayat.1c7515607c7bc4e47f43.jpg",
+    "static/media/fa-regular-400.woff2": "/cfo/static/media/fa-regular-400.d79c2ec96ab9ff1161a2.woff2",
+    "static/media/fa-v4compatibility.ttf": "/cfo/static/media/fa-v4compatibility.52eba2c567c521b8d58a.ttf",
+    "static/media/fa-v4compatibility.woff2": "/cfo/static/media/fa-v4compatibility.3d503f89ccaf1b224aa5.woff2",
+    "index.html": "/cfo/index.html",
+    "main.c7d90fad.css.map": "/cfo/static/css/main.c7d90fad.css.map",
+    "main.813a702d.js.map": "/cfo/static/js/main.813a702d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7d90fad.css",
+    "static/js/main.813a702d.js"
+  ]
+}
